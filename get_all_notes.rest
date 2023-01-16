@@ -25,3 +25,15 @@ DELETE http://localhost:3001/api/persons/4
 
 
 
+###
+GET https://restless-butterfly-3150.fly.dev/api/persons
+
+
+###
+POST https://restless-butterfly-3150.fly.dev/api/persons HTTP/1.1
+content-type: application/json
+
+{
+    "name": "assjjdasdsa",
+    "number": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
