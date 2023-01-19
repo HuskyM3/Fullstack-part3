@@ -6,13 +6,31 @@ POST http://localhost:3001/api/persons/ HTTP/1.1
 content-type: application/json
 
 {
-    "name": "assdasdsa",
-    "number": "Wed, 21 Oct 2015 18:27:50 GMT"
+    "name": "name",
+    "number": "12345"
 }
+
+###
+GET http://localhost:3001/info
 
 
 ###
+PUT http://localhost:3001/api/persons/63c830aef81ccaf37ce488a6 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "name",
+    "number": "111111111"
+}
+
+###
 GET http://localhost:3001/api/persons/4
+
+
+###
+GET http://localhost:3001/info
+
+
 
 
 ###
@@ -37,3 +55,14 @@ content-type: application/json
     "name": "assjjdasdsa",
     "number": "Wed, 21 Oct 2015 18:27:50 GMT"
 }
+
+
+###
+PUT https://restless-butterfly-3150.fly.dev/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "assjjdasdsa",
+    "number": "111111111"
+}
+
